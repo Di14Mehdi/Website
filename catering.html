@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="menu.html">Menu</a>
+  <a href="catering.html">Catering</a>
+  <a href="about.html">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="container">
+  <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/221920615?autoplay=1&controls=0&loop=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+  <div class="content">
+    <h2>Leaf&Brew Catering</h2>
+<h3>Let us bring you the best of L&B to you</h3>
+<p>We are launching a catering service because what we are cooking in our kitchen is too good not to share. Any special occasion in your life, big or small, we are here to provide you with the best service
+</p>
+  </div>
+</div>
+
+
+<div id="form">
+<form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+<h2 style="text-align:center">Catering Application Form</h2>
+<p>
+<label>Name
+<input type="text" name="customer_name" required>
+</label>
+</p>
+
+<p>
+<label>Phone
+<input type="tel" name="phone_number">
+</label>
+</p>
+
+<p>
+<label>Email
+<input type="email" name="email_address">
+</label>
+</p>
+
+<p>
+<label>Date/Time
+<input type="datetime-local" name="date_time" required>
+</label>
+</p>
+
+<p>
+<label>Estimate of people
+<input type="number" name="number_people" required>
+</label>
+</p>
+
+<p>
+<label>Location
+<input type="text" name="numbe_people" required>
+</label>
+</p>
+
+<p>
+<label>Special Instructions
+<textarea name="comments" maxlength="500"></textarea>
+</label>
+</p>
+
+<p><button>Submit Application</button></p>
+
+</form>
+</div>
+
+<!--
+<form>
+<ul class="form-style-1">
+    <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" /> <input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
+    <li>
+        <label>Email <span class="required">*</span></label>
+        <input type="email" name="field3" class="field-long" />
+    </li>
+    <li>
+        <label>Telephone <span class="required">*</span></label>
+        <input type="telephone" name="field4" class="field-long" />
+    </li>
+    <li>
+        <label>Subject</label>
+        <select name="field5" class="field-select">
+        <option value="Advertise">Advertise</option>
+        <option value="Partnership">Partnership</option>
+        <option value="General Question">General</option>
+        </select>
+    </li>
+    <li>
+        <label>Your Message <span class="required">*</span></label>
+        <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+    </li>
+    <li>
+        <input type="submit" value="Submit" />
+    </li>
+</ul>
+</form>
+-->
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+<footer>
+  <div class="row">
+    <div class="column">
+      <h1 id="cent">Hours</h1>
+      <h3>Monday through Friday</h3>
+      <h3 id="whr">6:00 AM to 4:00PM</h3>
+      <h3>Saturday</h3>
+      <h3 id="whr">6:00AM to 1:00PM</h3>
+    </div>
+    <div class="column" id="cent">
+      <h2 id="cent">Contact us</h2>
+      <a href="mailto:leafnbrew@gmail.com" style="font-size:20px"><i class="fas fa-envelope"> leafnbrew@gmail.com</i></a>
+      <h6><br></h6>
+      <a href="tel:1-615-513-6690" style="font-size:20px"><i class="fas fa-phone"> (615) 513-6690</i></a>
+    </div>
+    <div class="column">
+      <h2>Follow us</h2>
+      <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-foursquare"></a>
+    </div>
+  </div>
+  <h4 id="cent"> &copy; Copyright MASA. All rights reserved 2019</h4>
+  </table>
+
+</footer>
+</html>
