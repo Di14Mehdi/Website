@@ -64,6 +64,16 @@ div {
   float: right;
 }
 
+.centered {
+  position: absolute;
+  top: 81%;
+  font-size: 80px;
+  font-family: cursive;
+  color: brown;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .clearfix {
   overflow: auto;
 }
@@ -100,9 +110,9 @@ text-align: center;
   width 30%;
 }
 
-footer{
+/*footer{
   background: #92b86c;
-}
+}*/
 
 * {
   box-sizing: border-box;
